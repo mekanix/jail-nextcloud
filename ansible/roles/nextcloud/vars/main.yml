@@ -1,0 +1,11 @@
+---
+nextcloud_php_version: 73
+nextcloud_suffix: "php{{ nextcloud_php_version }}"
+
+nextcloud_packages:
+  - name: "nextcloud-calendar-{{ nextcloud_suffix }}"
+  - name: "nextcloud-contacts-{{ nextcloud_suffix }}"
+  - name: "nextcloud-mail-{{ nextcloud_suffix }}"
+  - name: "nextcloud-notes-{{ nextcloud_suffix }}"
+  - name: "nextcloud-tasks-{{ nextcloud_suffix }}"
+  - name: "{{ nextcloud_suffix }}-pecl-imagick-im7"
