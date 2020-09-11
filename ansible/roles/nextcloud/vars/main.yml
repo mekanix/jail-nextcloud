@@ -1,5 +1,5 @@
 ---
-nextcloud_php_version: 73
+nextcloud_php_version: 74
 nextcloud_suffix: "php{{ nextcloud_php_version }}"
 
 nextcloud_packages:
